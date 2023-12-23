@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popup related html File/title>
-        <script src="popup.js"></script>
+    <title>Popup related html File</title>
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-    <script src="popup.js"></script>
+    <div class="header">
+        <img src="../icon.png" />
+      </div>
+      <h1 id="timeShown">00:00</h1>
+      <div id="btnContainer">
+        <button id="startBtn">Start Timer</button>
+        <button id="resetBtn">Reset Timer</button>
+        <button id="addBtn">Add Task</button>
+      </div>
+      <div id="taskContainer"></div>
 </body>
+<script src="popup.js"></script>
 </html>
