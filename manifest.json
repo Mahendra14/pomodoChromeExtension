@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Mahendra's Pomodoro Timer",
+    "version": "1.0",
+    "description": "Turn on Focus Mode, but in real life!",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_icon": "icon.png",
+      "default_title": "Mahendra's Pomodoro Timer",
+      "default_popup": "popupFolder/popup.html"
+    },
+    "permissions": ["storage", "alarms", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "options_page": "optionFolder/options.html"
+  }
+  
